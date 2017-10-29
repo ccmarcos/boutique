@@ -1,0 +1,236 @@
+* {
+  margin:  0;
+  padding: 0;
+}
+
+.contenedor-nav{
+  /*background: rgb(61, 10, 73);*/
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  margin: auto;
+  width: 80%;
+  height: 80px;
+}
+
+.cont-nombre-boutique{
+  /*background: rgb(152, 136, 181);*/
+  width: 21%;
+  /*padding-top: -20px;*/
+}
+
+.logo{
+  height: 80px;
+  width: 120px;
+  /*background-image: url("../imagenes/carlitos-mano.jpg");*/
+
+  /*background-color: #cccccc;*/
+}
+/*hover menu #c8c8c8*/
+.cont-menu{
+  /*background: rgb(238, 249, 2);*/
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  width: 80%;
+  height: 35px;
+  margin-left: 16px;
+  padding-top: 16px;
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+}
+.item{
+  text-align: center;
+  width: 16%;
+  color: #545252;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.1s;
+  /*background: rgb(35, 172, 165);*/
+}
+.item:hover{
+  color: #c8c8c8;
+}
+.contenedor-img-home{
+  height: 630px;
+  width: 100%;
+  /*background: rgb(50, 130, 210);*/
+  background-image: url('../imagenes/portada.jpg');
+  background-size: cover;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  align-items: center;
+  justify-content: center;
+}
+.div-transparente{
+  background:rgba(255, 255, 255, 0.5);
+  width: 480px;
+  height: 245px;
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.texto-descubre{
+  padding-top: 60px;
+  font-size: 25px;
+}
+.texto-ofertas{
+  font-size: 50px;
+  padding-bottom: 8px;
+}
+.boton-ofertas{
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+  color: #FFF;
+  background: #303132;
+  padding: 15px 45px;
+  white-space: nowrap;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.boton-ofertas:hover{
+  background: white;
+  color: black;
+}
+
+.contenedor-publicidad-productos{
+  margin: auto;
+  /*background: rgb(128, 12, 19);*/
+  margin-top: 64px;
+  width: 80%;
+  /*height: 400px;*/
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: space-around;
+}
+
+.publicidad{
+  border: 1px solid #ccc;
+  /*background: rgb(164, 132, 95);*/
+  width: 28%;
+  height: 400px;
+}
+.publicidad img {
+  -webkit-transition:all 1.9s ease;
+  -moz-transition:all 1.9s ease;
+  -o-transition:all 1.9s ease;
+  -ms-transition:all 1.9s ease;
+  width:100%;
+}
+.publicidad:hover img{
+  -webkit-transform:scale(1.25);
+  -moz-transform:scale(1.25);
+  -ms-transform:scale(1.25);
+  -o-transform:scale(1.25);
+  transform:scale(1.25);
+}
+.publicidad {/*Ancho y altura son modificables al requerimiento de cada uno*/
+  overflow:hidden;
+}
+
+.contenedor-publicidad-nombre{
+  margin: auto;
+  width: 80%;
+  /*height: 400px;*/
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: space-around;
+}
+.item-publicidad-nombre{
+  background: #303132;
+  text-align: center;
+  padding-top: 24px;
+  width: 28%;
+  height: 50px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.ver-mas{
+  display: none;
+}
+
+.item-publicidad-nombre:hover > div >.span-producto{
+  display: none;
+}
+.item-publicidad-nombre:hover > div >.ver-mas{
+  display: block;
+}
+.contenedor-footer{
+  background: #303132;
+  margin-top: 64px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+.info{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: space-around;
+}
+.siguenos{
+  color: #b9b4aa;
+  padding-top: 75px;
+  width: 20%;
+  /*background: rgb(198, 179, 167);*/
+  font-family: 'Work Sans', sans-serif;
+}
+.ayuda{
+  color: #b9b4aa;
+  padding-top: 75px;
+  width: 20%;
+  /*background: rgb(18, 161, 230);*/
+  font-family: 'Work Sans', sans-serif;
+}
+.desarrollado{
+  color: #b9b4aa;
+  font-family: 'Work Sans', sans-serif;
+}
+.tere{
+  color: white;
+  text-decoration: none;
+  text-decoration: none;
+   border-bottom:1px dotted white;
+}
+/*.ropa{
+  width: 20%;
+  background: rgb(16, 74, 185);
+}
+.bolsos{
+  width: 20%;
+  background: rgb(111, 246, 251);
+}*/
+/*.lentes{
+  width: 20%;
+}*/
